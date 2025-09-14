@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanadoAPI", "VanadoProject\VanadoAPI.csproj", "{F636F99A-A44A-4184-A603-C31F092D0FB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanadoShared", "VanadoShared\VanadoShared.csproj", "{8E1BF5C8-4108-4B94-A969-D4831D5239F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanadoBlazorApp", "VanadoBlazorApp\VanadoBlazorApp\VanadoBlazorApp.csproj", "{85A6BCB7-F41A-47C2-8207-ECFA2C8A9EB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanadoBlazorApp.Client", "VanadoBlazorApp\VanadoBlazorApp.Client\VanadoBlazorApp.Client.csproj", "{BAA1E58D-BB8D-41E3-AF8F-E6E41678BCBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestVanado", "TestVanado\TestVanado.csproj", "{DE926418-5959-482E-A69E-C0BF3B8D3438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanadoMigration", "VanadoMigration\VanadoMigration.csproj", "{C85A4A08-8632-4BD8-8649-5632793E05E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F636F99A-A44A-4184-A603-C31F092D0FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F636F99A-A44A-4184-A603-C31F092D0FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F636F99A-A44A-4184-A603-C31F092D0FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F636F99A-A44A-4184-A603-C31F092D0FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1BF5C8-4108-4B94-A969-D4831D5239F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1BF5C8-4108-4B94-A969-D4831D5239F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1BF5C8-4108-4B94-A969-D4831D5239F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1BF5C8-4108-4B94-A969-D4831D5239F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A6BCB7-F41A-47C2-8207-ECFA2C8A9EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A6BCB7-F41A-47C2-8207-ECFA2C8A9EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A6BCB7-F41A-47C2-8207-ECFA2C8A9EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A6BCB7-F41A-47C2-8207-ECFA2C8A9EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA1E58D-BB8D-41E3-AF8F-E6E41678BCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA1E58D-BB8D-41E3-AF8F-E6E41678BCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA1E58D-BB8D-41E3-AF8F-E6E41678BCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA1E58D-BB8D-41E3-AF8F-E6E41678BCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE926418-5959-482E-A69E-C0BF3B8D3438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE926418-5959-482E-A69E-C0BF3B8D3438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE926418-5959-482E-A69E-C0BF3B8D3438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE926418-5959-482E-A69E-C0BF3B8D3438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85A4A08-8632-4BD8-8649-5632793E05E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85A4A08-8632-4BD8-8649-5632793E05E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85A4A08-8632-4BD8-8649-5632793E05E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85A4A08-8632-4BD8-8649-5632793E05E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C3ACA64-C6F9-4FD8-A14C-A439DA82375F}
+	EndGlobalSection
+EndGlobal

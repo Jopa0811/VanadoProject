@@ -1,0 +1,40 @@
+﻿@page "/kvarovi"
+@using VanadoBlazor.Services
+@using VanadoShared.Model
+@implements IDisposable
+@inject KvaroviHubService HubService
+
+<h3>Popis live kvarova</h3>
+
+<ul>
+    @if (kvarovi != null)
+    {
+        @foreach (var kvar in kvarovi)
+        {
+            <li>@kvar.StrojId @kvar.Prioritet @kvar.Opis </li>
+        }
+    }
+    
+</ul>
+
+@code {
+    protected List<Kvar> kvarovi = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        HubService.OnKvarDodan += HandleKvarDodan;
+        await HubService.ConnectAsync();
+    }
+
+    private async void HandleKvarDodan(Kvar kvar)
+    {
+        kvarovi.Add(kvar);
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        HubService.OnKvarDodan -= HandleKvarDodan;
+        _ = HubService.DisconnectAsync(); 
+    }
+}

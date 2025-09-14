@@ -1,0 +1,6 @@
+@VanadoAPI_HostAddress = http://localhost:5225
+
+GET {{VanadoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
